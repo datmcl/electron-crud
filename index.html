@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Electron CRUD</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <form id="auth">
+            Database:
+            <p><input type="text" id="database" placeholder="Database"></p>
+            Login:
+            <p><input type="text" id="login" placeholder="Your login"></p>
+            Password:
+            <p><input type="password" id="password" placeholder="Your password"></p>
+            <p><input type="submit" id="submit" value="Login"></p>
+            <p><input type="button" id="logout" value="Exit" disabled></p>
+        </form>
+
+        <p id="login-info"></p>
+
+        <!-- <table id="table" border="1" style="display: none">
+                <tbody>
+                    
+                </tbody>
+        </table> -->
+        <script src="auth.js"></script>
+    </body>
+</html>
